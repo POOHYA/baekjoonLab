@@ -2,7 +2,7 @@ package inputoutput;
 
 import java.util.Scanner;
 
-public class multiply {
+public class Baekjoon_2588 {
 
 	public static void main(String[] args) {
 

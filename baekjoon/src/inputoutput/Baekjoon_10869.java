@@ -2,10 +2,10 @@ package inputoutput;
 
 import java.util.Scanner;
 
-public class ArithmeticOP {
+public class Baekjoon_10869 {
 
 	public static void main(String[] args) {
-		// ì²«ì§¸ ì¤„ì— A+B, ë‘˜ì§¸ ì¤„ì— A-B, ì…‹ì§¸ ì¤„ì— A*B, ë„·ì§¸ ì¤„ì— A/B, ë‹¤ì„¯ì§¸ ì¤„ì— A%Bë¥¼ ì¶œë ¥í•œë‹¤.
+		// Ã¹Â° ÁÙ¿¡ A+B, µÑÂ° ÁÙ¿¡ A-B, ¼ÂÂ° ÁÙ¿¡ A*B, ³İÂ° ÁÙ¿¡ A/B, ´Ù¼¸Â° ÁÙ¿¡ A%B¸¦ Ãâ·ÂÇÑ´Ù.
 		
 		Scanner sc = new Scanner(System.in);
 		
