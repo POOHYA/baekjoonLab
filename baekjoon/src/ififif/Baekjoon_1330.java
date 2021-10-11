@@ -2,7 +2,7 @@ package ififif;
 
 import java.util.Scanner;
 
-public class Comparison {
+public class Baekjoon_1330 {
 
 	public static void main(String[] args) {
 		

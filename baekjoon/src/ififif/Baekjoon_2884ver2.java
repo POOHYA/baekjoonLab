@@ -2,7 +2,7 @@ package ififif;
 
 import java.util.Scanner;
 
-public class Alarm2 {
+public class Baekjoon_2884ver2 {
 	public static void main(String[] args) {
 	
 	Scanner sc = new Scanner(System.in);

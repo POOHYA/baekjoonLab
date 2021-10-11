@@ -2,7 +2,7 @@ package ififif;
 
 import java.util.Scanner;
 
-public class Leapyears {
+public class Baekjoon_2753 {
 
 	public static void main(String[] args) {
 		

@@ -2,7 +2,7 @@ package ififif;
 
 import java.util.Scanner;
 
-public class Score {
+public class Baekjoon_9498 {
 
 	public static void main(String[] args) {
 		

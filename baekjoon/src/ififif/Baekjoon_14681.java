@@ -2,7 +2,7 @@ package ififif;
 
 import java.util.Scanner;
 
-public class Quadrant {
+public class Baekjoon_14681 {
 	static final int MAX = 1000;
 	static final int MIN = -1000;
 	
