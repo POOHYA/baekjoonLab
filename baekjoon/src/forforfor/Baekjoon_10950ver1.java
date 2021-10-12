@@ -18,7 +18,7 @@ public class Baekjoon_10950ver1 {
 //			StringTokenizer st=new StringTokenizer(a);
 //			System.out.println(Integer.parseInt(st.nextToken())+Integer.parseInt(st.nextToken()));
 //		}
-//		test
+//
 //	}
 //
 //}
