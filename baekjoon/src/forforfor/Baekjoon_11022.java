@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
-public class Baekjoon_11021 {
+public class Baekjoon_11022 {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -16,12 +16,11 @@ public class Baekjoon_11021 {
 		int T = Integer.parseInt(br.readLine());
 		
 		for(int i=0; i<T; i++) {
-			String s = new String();
-			s = br.readLine();
+			String s = new String(br.readLine());
 			StringTokenizer st = new StringTokenizer(s);
 			int a = Integer.parseInt(st.nextToken());
 			int b = Integer.parseInt(st.nextToken());
-			bw.write("Case #"+(i+1)+": "+(a+b)+"\n");
+			bw.write("Case #"+(i+1)+": "+a+" + "+b+" = "+(a+b)+"\n");
 	        }
 		
 		bw.flush();

@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 public class Buffered{
 	  public static void main(String[] args) throws IOException {
 	        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-	        String s = bf.readLine();   // ÀÔ·ÂÀ» 5 4 ·Î ¹ÞÀ½
+	        String s = bf.readLine();   // ï¿½Ô·ï¿½ï¿½ï¿½ 5 4 ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 	        StringTokenizer st = new StringTokenizer(s);
 	        int a = Integer.parseInt(st.nextToken());  //5
 	        int b = Integer.parseInt(st.nextToken());  //4
@@ -19,17 +19,11 @@ public class Buffered{
 	        bw.write(p + "\n");
 	 
 	 
-	        // writeÇÑ´Ù°í ÇØ¼­ ¹Ù·Î¹Ù·Î Ãâ·ÂµÇÁö ¾Ê´Â´Ù.
-	        // Á÷Á¢ Ãâ·Â stream¿¡ ¹Ý¿µµÇ´Â °ÍÀÌ ¾Æ´Ï¶ó ¼º´ÉÀ» À§ÇØ buffer¿¡ ÀúÀåÇØµÎ¾ú´Ù°¡
-	        // BufferedWriter°¡ flushµÇ°Å³ª closeµÇ¾úÀ» ¶§ ÇÑ¹ø¿¡ Ãâ·Â stream¿¡ ¹Ý¿µÇÏ±â ¶§¹®ÀÌ´Ù.
 	        bw.flush();
 	        bw.write("3");
+
 	 
-	        // close´Â streamÀ» ´Ý¾Æ¹ö¸®±â ¶§¹®¿¡ °è¼Ó Ãâ·ÂÇÏ°íÀÚ ÇÑ´Ù¸é flush »ç¿ëÇÑ´Ù.
-	        // bw.close();
-	 
-	        // Ãâ·Â³»¿ë¿¡ ÁÙ¹Ù²ÞÀÌ ÇÊ¿äÇÏ´Ù¸é newLine ÇÔ¼ö¸¦ »ç¿ëÇÑ´Ù.
-	        bw.write(String.valueOf(b));  // write´Â StringÇü¸¸ Ãâ·ÂÀÌ °¡´ÉÇÏ¹Ç·Î Á¤¼ö´Â StringÀ¸·Î º¯È¯ÇØ¾ßÇÔ
+	        bw.write(String.valueOf(b));  // writeï¿½ï¿½ Stringï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¹Ç·ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Stringï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯ï¿½Ø¾ï¿½ï¿½ï¿½
 	 
 	        bw.flush();
 	        bw.close();
