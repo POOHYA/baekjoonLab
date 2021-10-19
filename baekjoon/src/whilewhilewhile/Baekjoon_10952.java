@@ -23,12 +23,12 @@ public class Baekjoon_10952 {
 			a = Integer.parseInt(st.nextToken());
 			b = Integer.parseInt(st.nextToken());
 			if(!(a == 0 && b == 0)) {
-			bw.write((a+b)+"\n");}else break;			
+			bw.write((a+b)+"\n");
+			}else break;			
 		}
 		bw.flush();
 		bw.close();
-		
-		
+				
 	}
 
 }
